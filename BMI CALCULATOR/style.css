@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+main, body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+}
+
+input {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.4rem;
+    margin: 2vh;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3vh ;
+}
+
+.calculate {
+    width: 20vw;
+    height: 5vh;
+    font-size: 1.1rem;
+    background: #99da00;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.calculate:hover {
+    background: #b3ff00;
+}
+
+.bmi {
+    margin-top: 3vh;
+}

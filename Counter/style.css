@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+main, body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+}
+
+.btn, .reset {
+    width: 3vw;
+    height: 5vh;
+    background: #ff1d1d;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset {
+    margin-top: 2vh;
+    width: 7vw;
+    height: 5vh;
+    background: #ff1d1d;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+}
